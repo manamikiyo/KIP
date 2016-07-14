@@ -1,0 +1,249 @@
+/* grid styles */
+.container {
+	max-width: 80%;
+	margin: 0;
+}
+body {
+	background-image: url(Brick.jpg);
+	background-size: cover;
+	color: #fff;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing-: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+.row {
+	width: 100%;
+	display: flex;
+
+}
+
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 24.99%;
+}
+.col-4 {
+	width: 33.32%;
+}
+.col-5 {
+	width: 41.65%;
+}
+.col-6 {
+	width: 49.98%;
+}
+.col-7 {
+	width: 58.31%;
+}
+.col-8 {
+	width: 66.64%;
+}
+.col-9 {
+	width: 74.97%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.63%;
+}
+.col-12 {
+	width: 99.96%;
+}
+
+/* custom styles */
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	padding: 1%;
+}
+body {
+	font: arial;
+}
+.container{margin: 0 auto;}
+h1, h3 {
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+h1 {
+	font-size: 3em;
+}
+
+.row{padding: 5px;}
+
+.media{padding-left: 45px;}
+
+h3 {
+	font-size: 1.5em;
+	font-style: italic;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+   
+   
+}
+
+li {
+    
+    list-style: none;
+    padding-left: auto;
+    display: inline-block;
+        
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: maroon;
+   display: inline-block;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   }
+
+.dropdown-content a:hover {
+	background-color: brown;
+color: white;
+display: block;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #f1f1f1;
+    z-index: 1000;
+}
+.stupid {
+	max-height: 100%;
+	padding-left: 35%;
+	 opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: sticky;
+}
+
+.selfie{
+	max-height:100%;
+	
+	position: sticky;
+}
+
+.avi {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.size {
+	font-size: 35px;
+}
+footer {
+	text-align: center;
+	font-size: 1em;
+
+}
+
+#connection a{
+  text-decoration: none;
+}
+#connection a:hover{
+  font-style: italic;
+  font-size: 1.5em;
+  text-decoration: underline;
+  color: white;
+}
+.media img:hover {
+  opacity: 0.5;
+  filter: alpha (opacity=50);
+}
+
+.bio{
+	font-size: 120%;
+	border-style: double;
+    border-width: 15px;
+color: white;
+background-color: black;
+padding: 10px;
+}
+
+p{padding-bottom: 15px;}
+
+figure { 
+  display:inline-block; 
+  position: relative; 
+  overflow: hidden; 
+}
+
+figcaption { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 25px;
+  opacity: 0;
+  top: 0; 
+  left: -30%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+figure, figcaption {
+display: block;
+}
+figure:hover figcaption {
+  opacity: 1;
+  left: 0;
+}
+figure:before { 
+  content: "?"; 
+  position: absolute; 
+  background: rgba(255,255,255,0.75); 
+  color: black;
+  width: 24px;
+  height: 24px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius:    12px;
+  border-radius:         12px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 24px;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  opacity: 0.75; 
+}
+figure:hover:before {
+  opacity: 0;
+}

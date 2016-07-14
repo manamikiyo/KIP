@@ -1,0 +1,24 @@
+body{
+	background-image: url(circles.jpg);
+}
+
+.picture {
+	margin-left: 30%;
+	margin-top: 5%;
+	padding: 20px;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+.picture a{
+	text-decoration: none;
+}
+
+.picture:hover {
+	color: (169, 13, 217, 0.57);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px; 
+}
